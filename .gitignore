@@ -1,20 +1,29 @@
-.idea/
-.vscode/
-__pycache__/
-*.pyc
-
 .venv/
 venv/
 env/
+bin/
+lib/
+share/
+Include/
+pyvenv.cfg
 
-*.csv
-*.json
-*.xlsx
-*.xml
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
 
 *.pkl
-*.h5
+*.safetensors
+*.bin
 *.pt
-*.pth
+*.onnx
+*.csv
+output/
+english_model/bert_trained/
+romanian_model/roberta_trained/
 
-.DS_Store
+*.log
+.env
+.vscode/
+.idea/
